@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F958D22226FB983B00CBD8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D22126FB983B00CBD8B2 /* AppDelegate.swift */; };
+		F958D22426FB983B00CBD8B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D22326FB983B00CBD8B2 /* SceneDelegate.swift */; };
+		F958D22626FB983B00CBD8B2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D22526FB983B00CBD8B2 /* Home.swift */; };
+		F958D22926FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F958D22726FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld */; };
+		F958D22B26FB983E00CBD8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F958D22A26FB983E00CBD8B2 /* Assets.xcassets */; };
+		F958D22E26FB983E00CBD8B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F958D22D26FB983E00CBD8B2 /* Preview Assets.xcassets */; };
+		F958D23126FB983E00CBD8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F958D22F26FB983E00CBD8B2 /* LaunchScreen.storyboard */; };
+		F958D23C26FB983F00CBD8B2 /* Challenge_KleverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D23B26FB983F00CBD8B2 /* Challenge_KleverTests.swift */; };
+		F958D24726FB983F00CBD8B2 /* Challenge_KleverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D24626FB983F00CBD8B2 /* Challenge_KleverUITests.swift */; };
+		F958D25D26FB989A00CBD8B2 /* TabBarBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D25C26FB989A00CBD8B2 /* TabBarBase.swift */; };
+		F9C0174A26FBA807000F0558 /* DetailsContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0174926FBA807000F0558 /* DetailsContact.swift */; };
+		F9C0174F26FBAC86000F0558 /* AddContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0174E26FBAC86000F0558 /* AddContacts.swift */; };
+		F9C0175426FBAF84000F0558 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0175326FBAF84000F0558 /* RatingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F958D23826FB983F00CBD8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F958D21626FB983B00CBD8B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F958D21D26FB983B00CBD8B2;
+			remoteInfo = Challenge_Klever;
+		};
+		F958D24326FB983F00CBD8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F958D21626FB983B00CBD8B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F958D21D26FB983B00CBD8B2;
+			remoteInfo = Challenge_Klever;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F958D21E26FB983B00CBD8B2 /* Challenge_Klever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge_Klever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958D22126FB983B00CBD8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F958D22326FB983B00CBD8B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F958D22526FB983B00CBD8B2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F958D22826FB983B00CBD8B2 /* Challenge_Klever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challenge_Klever.xcdatamodel; sourceTree = "<group>"; };
+		F958D22A26FB983E00CBD8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F958D22D26FB983E00CBD8B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F958D23026FB983E00CBD8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F958D23226FB983E00CBD8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F958D23726FB983F00CBD8B2 /* Challenge_KleverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge_KleverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958D23B26FB983F00CBD8B2 /* Challenge_KleverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_KleverTests.swift; sourceTree = "<group>"; };
+		F958D23D26FB983F00CBD8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F958D24226FB983F00CBD8B2 /* Challenge_KleverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge_KleverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958D24626FB983F00CBD8B2 /* Challenge_KleverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_KleverUITests.swift; sourceTree = "<group>"; };
+		F958D24826FB983F00CBD8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F958D25C26FB989A00CBD8B2 /* TabBarBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarBase.swift; sourceTree = "<group>"; };
+		F9C0174926FBA807000F0558 /* DetailsContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContact.swift; sourceTree = "<group>"; };
+		F9C0174E26FBAC86000F0558 /* AddContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContacts.swift; sourceTree = "<group>"; };
+		F9C0175326FBAF84000F0558 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F958D21B26FB983B00CBD8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D23426FB983F00CBD8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D23F26FB983F00CBD8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F958D21526FB983B00CBD8B2 = {
+			isa = PBXGroup;
+			children = (
+				F958D22026FB983B00CBD8B2 /* Challenge_Klever */,
+				F958D23A26FB983F00CBD8B2 /* Challenge_KleverTests */,
+				F958D24526FB983F00CBD8B2 /* Challenge_KleverUITests */,
+				F958D21F26FB983B00CBD8B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F958D21F26FB983B00CBD8B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F958D21E26FB983B00CBD8B2 /* Challenge_Klever.app */,
+				F958D23726FB983F00CBD8B2 /* Challenge_KleverTests.xctest */,
+				F958D24226FB983F00CBD8B2 /* Challenge_KleverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F958D22026FB983B00CBD8B2 /* Challenge_Klever */ = {
+			isa = PBXGroup;
+			children = (
+				F958D22126FB983B00CBD8B2 /* AppDelegate.swift */,
+				F958D22326FB983B00CBD8B2 /* SceneDelegate.swift */,
+				F958D25726FB985500CBD8B2 /* Scenes */,
+				F958D22526FB983B00CBD8B2 /* Home.swift */,
+				F9C0174E26FBAC86000F0558 /* AddContacts.swift */,
+				F9C0174926FBA807000F0558 /* DetailsContact.swift */,
+				F9C0175326FBAF84000F0558 /* RatingView.swift */,
+				F958D22A26FB983E00CBD8B2 /* Assets.xcassets */,
+				F958D22F26FB983E00CBD8B2 /* LaunchScreen.storyboard */,
+				F958D23226FB983E00CBD8B2 /* Info.plist */,
+				F958D22726FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld */,
+				F958D22C26FB983E00CBD8B2 /* Preview Content */,
+			);
+			path = Challenge_Klever;
+			sourceTree = "<group>";
+		};
+		F958D22C26FB983E00CBD8B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F958D22D26FB983E00CBD8B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F958D23A26FB983F00CBD8B2 /* Challenge_KleverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F958D23B26FB983F00CBD8B2 /* Challenge_KleverTests.swift */,
+				F958D23D26FB983F00CBD8B2 /* Info.plist */,
+			);
+			path = Challenge_KleverTests;
+			sourceTree = "<group>";
+		};
+		F958D24526FB983F00CBD8B2 /* Challenge_KleverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F958D24626FB983F00CBD8B2 /* Challenge_KleverUITests.swift */,
+				F958D24826FB983F00CBD8B2 /* Info.plist */,
+			);
+			path = Challenge_KleverUITests;
+			sourceTree = "<group>";
+		};
+		F958D25726FB985500CBD8B2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F958D25B26FB986300CBD8B2 /* TabBar */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F958D25B26FB986300CBD8B2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F958D25C26FB989A00CBD8B2 /* TabBarBase.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F958D21D26FB983B00CBD8B2 /* Challenge_Klever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F958D24B26FB983F00CBD8B2 /* Build configuration list for PBXNativeTarget "Challenge_Klever" */;
+			buildPhases = (
+				F958D21A26FB983B00CBD8B2 /* Sources */,
+				F958D21B26FB983B00CBD8B2 /* Frameworks */,
+				F958D21C26FB983B00CBD8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Challenge_Klever;
+			productName = Challenge_Klever;
+			productReference = F958D21E26FB983B00CBD8B2 /* Challenge_Klever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F958D23626FB983F00CBD8B2 /* Challenge_KleverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F958D24E26FB983F00CBD8B2 /* Build configuration list for PBXNativeTarget "Challenge_KleverTests" */;
+			buildPhases = (
+				F958D23326FB983F00CBD8B2 /* Sources */,
+				F958D23426FB983F00CBD8B2 /* Frameworks */,
+				F958D23526FB983F00CBD8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F958D23926FB983F00CBD8B2 /* PBXTargetDependency */,
+			);
+			name = Challenge_KleverTests;
+			productName = Challenge_KleverTests;
+			productReference = F958D23726FB983F00CBD8B2 /* Challenge_KleverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F958D24126FB983F00CBD8B2 /* Challenge_KleverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F958D25126FB983F00CBD8B2 /* Build configuration list for PBXNativeTarget "Challenge_KleverUITests" */;
+			buildPhases = (
+				F958D23E26FB983F00CBD8B2 /* Sources */,
+				F958D23F26FB983F00CBD8B2 /* Frameworks */,
+				F958D24026FB983F00CBD8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F958D24426FB983F00CBD8B2 /* PBXTargetDependency */,
+			);
+			name = Challenge_KleverUITests;
+			productName = Challenge_KleverUITests;
+			productReference = F958D24226FB983F00CBD8B2 /* Challenge_KleverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F958D21626FB983B00CBD8B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F958D21D26FB983B00CBD8B2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F958D23626FB983F00CBD8B2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F958D21D26FB983B00CBD8B2;
+					};
+					F958D24126FB983F00CBD8B2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F958D21D26FB983B00CBD8B2;
+					};
+				};
+			};
+			buildConfigurationList = F958D21926FB983B00CBD8B2 /* Build configuration list for PBXProject "Challenge_Klever" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F958D21526FB983B00CBD8B2;
+			productRefGroup = F958D21F26FB983B00CBD8B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F958D21D26FB983B00CBD8B2 /* Challenge_Klever */,
+				F958D23626FB983F00CBD8B2 /* Challenge_KleverTests */,
+				F958D24126FB983F00CBD8B2 /* Challenge_KleverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F958D21C26FB983B00CBD8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D23126FB983E00CBD8B2 /* LaunchScreen.storyboard in Resources */,
+				F958D22E26FB983E00CBD8B2 /* Preview Assets.xcassets in Resources */,
+				F958D22B26FB983E00CBD8B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D23526FB983F00CBD8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D24026FB983F00CBD8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F958D21A26FB983B00CBD8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D22926FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld in Sources */,
+				F958D25D26FB989A00CBD8B2 /* TabBarBase.swift in Sources */,
+				F958D22226FB983B00CBD8B2 /* AppDelegate.swift in Sources */,
+				F9C0175426FBAF84000F0558 /* RatingView.swift in Sources */,
+				F9C0174A26FBA807000F0558 /* DetailsContact.swift in Sources */,
+				F958D22426FB983B00CBD8B2 /* SceneDelegate.swift in Sources */,
+				F958D22626FB983B00CBD8B2 /* Home.swift in Sources */,
+				F9C0174F26FBAC86000F0558 /* AddContacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D23326FB983F00CBD8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D23C26FB983F00CBD8B2 /* Challenge_KleverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D23E26FB983F00CBD8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D24726FB983F00CBD8B2 /* Challenge_KleverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F958D23926FB983F00CBD8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F958D21D26FB983B00CBD8B2 /* Challenge_Klever */;
+			targetProxy = F958D23826FB983F00CBD8B2 /* PBXContainerItemProxy */;
+		};
+		F958D24426FB983F00CBD8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F958D21D26FB983B00CBD8B2 /* Challenge_Klever */;
+			targetProxy = F958D24326FB983F00CBD8B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F958D22F26FB983E00CBD8B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F958D23026FB983E00CBD8B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F958D24926FB983F00CBD8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F958D24A26FB983F00CBD8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F958D24C26FB983F00CBD8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge_Klever/Preview Content\"";
+				DEVELOPMENT_TEAM = 944UGLCUDB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Challenge_Klever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.gabrielMendonca.Challenge-Klever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F958D24D26FB983F00CBD8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge_Klever/Preview Content\"";
+				DEVELOPMENT_TEAM = 944UGLCUDB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Challenge_Klever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.gabrielMendonca.Challenge-Klever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F958D24F26FB983F00CBD8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 944UGLCUDB;
+				INFOPLIST_FILE = Challenge_KleverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.gabrielMendonca.Challenge-KleverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge_Klever.app/Challenge_Klever";
+			};
+			name = Debug;
+		};
+		F958D25026FB983F00CBD8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 944UGLCUDB;
+				INFOPLIST_FILE = Challenge_KleverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.gabrielMendonca.Challenge-KleverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge_Klever.app/Challenge_Klever";
+			};
+			name = Release;
+		};
+		F958D25226FB983F00CBD8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 944UGLCUDB;
+				INFOPLIST_FILE = Challenge_KleverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.gabrielMendonca.Challenge-KleverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Challenge_Klever;
+			};
+			name = Debug;
+		};
+		F958D25326FB983F00CBD8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 944UGLCUDB;
+				INFOPLIST_FILE = Challenge_KleverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.gabrielMendonca.Challenge-KleverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Challenge_Klever;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F958D21926FB983B00CBD8B2 /* Build configuration list for PBXProject "Challenge_Klever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D24926FB983F00CBD8B2 /* Debug */,
+				F958D24A26FB983F00CBD8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F958D24B26FB983F00CBD8B2 /* Build configuration list for PBXNativeTarget "Challenge_Klever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D24C26FB983F00CBD8B2 /* Debug */,
+				F958D24D26FB983F00CBD8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F958D24E26FB983F00CBD8B2 /* Build configuration list for PBXNativeTarget "Challenge_KleverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D24F26FB983F00CBD8B2 /* Debug */,
+				F958D25026FB983F00CBD8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F958D25126FB983F00CBD8B2 /* Build configuration list for PBXNativeTarget "Challenge_KleverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D25226FB983F00CBD8B2 /* Debug */,
+				F958D25326FB983F00CBD8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F958D22726FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F958D22826FB983B00CBD8B2 /* Challenge_Klever.xcdatamodel */,
+			);
+			currentVersion = F958D22826FB983B00CBD8B2 /* Challenge_Klever.xcdatamodel */;
+			path = Challenge_Klever.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F958D21626FB983B00CBD8B2 /* Project object */;
+}
