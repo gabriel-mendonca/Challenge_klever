@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Challenge_Klever
+//  Poc_SwiftUI
 //
 //  Created by Gabriel Mendonça Sousa Goncalves on 22/09/21.
 //
@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Challenge_Klever")
+        let container = NSPersistentContainer(name: "Poc_SwiftUI")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

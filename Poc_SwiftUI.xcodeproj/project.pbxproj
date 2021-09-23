@@ -10,7 +10,6 @@
 		F958D22226FB983B00CBD8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D22126FB983B00CBD8B2 /* AppDelegate.swift */; };
 		F958D22426FB983B00CBD8B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D22326FB983B00CBD8B2 /* SceneDelegate.swift */; };
 		F958D22626FB983B00CBD8B2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D22526FB983B00CBD8B2 /* Home.swift */; };
-		F958D22926FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F958D22726FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld */; };
 		F958D22B26FB983E00CBD8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F958D22A26FB983E00CBD8B2 /* Assets.xcassets */; };
 		F958D22E26FB983E00CBD8B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F958D22D26FB983E00CBD8B2 /* Preview Assets.xcassets */; };
 		F958D23126FB983E00CBD8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F958D22F26FB983E00CBD8B2 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,7 @@
 		F9C0174A26FBA807000F0558 /* DetailsContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0174926FBA807000F0558 /* DetailsContact.swift */; };
 		F9C0174F26FBAC86000F0558 /* AddContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0174E26FBAC86000F0558 /* AddContacts.swift */; };
 		F9C0175426FBAF84000F0558 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0175326FBAF84000F0558 /* RatingView.swift */; };
+		F9C0178626FC0A44000F0558 /* Poc_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9C0178426FC0A44000F0558 /* Poc_SwiftUI.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		F958D22126FB983B00CBD8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F958D22326FB983B00CBD8B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F958D22526FB983B00CBD8B2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		F958D22826FB983B00CBD8B2 /* Challenge_Klever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challenge_Klever.xcdatamodel; sourceTree = "<group>"; };
 		F958D22A26FB983E00CBD8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F958D22D26FB983E00CBD8B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F958D23026FB983E00CBD8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		F9C0174926FBA807000F0558 /* DetailsContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContact.swift; sourceTree = "<group>"; };
 		F9C0174E26FBAC86000F0558 /* AddContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContacts.swift; sourceTree = "<group>"; };
 		F9C0175326FBAF84000F0558 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		F9C0178526FC0A44000F0558 /* Poc_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poc_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				F958D22A26FB983E00CBD8B2 /* Assets.xcassets */,
 				F958D22F26FB983E00CBD8B2 /* LaunchScreen.storyboard */,
 				F958D23226FB983E00CBD8B2 /* Info.plist */,
-				F958D22726FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld */,
+				F9C0178426FC0A44000F0558 /* Poc_SwiftUI.xcdatamodeld */,
 				F958D22C26FB983E00CBD8B2 /* Preview Content */,
 			);
 			path = Poc_SwiftUI;
@@ -176,8 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F958D22926FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld in Sources */,
 				F958D25D26FB989A00CBD8B2 /* TabBarBase.swift in Sources */,
+				F9C0178626FC0A44000F0558 /* Poc_SwiftUI.xcdatamodeld in Sources */,
 				F958D22226FB983B00CBD8B2 /* AppDelegate.swift in Sources */,
 				F9C0175426FBAF84000F0558 /* RatingView.swift in Sources */,
 				F9C0174A26FBA807000F0558 /* DetailsContact.swift in Sources */,
@@ -383,13 +383,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F958D22726FB983B00CBD8B2 /* Challenge_Klever.xcdatamodeld */ = {
+		F9C0178426FC0A44000F0558 /* Poc_SwiftUI.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F958D22826FB983B00CBD8B2 /* Challenge_Klever.xcdatamodel */,
+				F9C0178526FC0A44000F0558 /* Poc_SwiftUI.xcdatamodel */,
 			);
-			currentVersion = F958D22826FB983B00CBD8B2 /* Challenge_Klever.xcdatamodel */;
-			path = Challenge_Klever.xcdatamodeld;
+			currentVersion = F9C0178526FC0A44000F0558 /* Poc_SwiftUI.xcdatamodel */;
+			path = Poc_SwiftUI.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

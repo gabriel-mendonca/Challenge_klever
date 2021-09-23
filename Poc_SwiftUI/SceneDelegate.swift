@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Challenge_Klever
+//  Poc_SwiftUI
 //
 //  Created by Gabriel Mendonça Sousa Goncalves on 22/09/21.
 //
