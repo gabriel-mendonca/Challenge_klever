@@ -17,14 +17,21 @@ struct Home: View {
         NavigationView {
             List {
                 ForEach(contacts, id: \.self) { contacts in
-                    NavigationLink(destination: DetailsContact(contact: contacts)) {
-                        
+                    NavigationLink(destination: AddContacts(contact: contacts)) {
+                        HStack {
+                            let image = UIImage(data: contacts.image ?? Data()) ?? UIImage()
+                            Image(uiImage: image)
+                                .resizable()
+                                .scaledToFill()
+                                .clipShape(Circle())
+                                .frame(width: 80, height: 80, alignment: .center)
                         VStack(alignment: .leading) {
                             Text(contacts.name ?? "")
                                 .font(.headline)
                             Text(contacts.number ?? "")
                                 .foregroundColor(.secondary)
                         }
+                      }
                     }
                 }.onDelete(perform: { indexSet in
                     deleteRows(at: indexSet)
